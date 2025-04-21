@@ -3,7 +3,7 @@ import { Links } from "./Links";
 import { Link } from "./Link";
 
 const meta: Meta<typeof Links> = {
-  title: 'Base/Links/Container',
+  title: 'Links/Container',
   component: Links,
   subcomponents: { Link },
   tags: ['autodocs'],

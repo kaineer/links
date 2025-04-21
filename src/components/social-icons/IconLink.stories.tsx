@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Title } from "./Title";
+import { IconLink } from "./IconLink";
 
-const meta: Meta<typeof Title> = {
-  title: 'Profile/Title',
-  component: Title,
+const meta: Meta<typeof IconLink> = {
+  title: 'Social/IconLink',
+  component: IconLink,
   tags: ['autodocs'],
   parameters: {
     backgrounds: {
@@ -14,10 +14,10 @@ const meta: Meta<typeof Title> = {
 
 export default meta;
 
-type Story = StoryObj<typeof Title>;
+type Story = StoryObj<typeof IconLink>;
 
 export const Default: Story = {
   args: {
-    text: "Tangerine Cat"
+    iconClass: "fa-pinterest"
   }
 }
