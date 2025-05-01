@@ -1,5 +1,5 @@
-import React, { ReactNode } from "react";
 import classes from './Links.module.css';
+import { ReactNode } from "react";
 
 interface Props {
   children: ReactNode;
