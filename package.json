@@ -42,5 +42,42 @@
     "extends": [
       "plugin:storybook/recommended"
     ]
+  },
+  "linkPage": {
+    "profile": {
+      "url": "",
+      "bio": "test bio",
+      "title": "test title"
+    },
+    "links": [
+      {
+        "text": "Беру и делаю",
+        "url": "https://nhee.ru/blog",
+        "iconClass": "fa-regular fa-user"
+      },
+      {
+        "text": "Twitter",
+        "url": "https://x.com/kaineer",
+        "iconClass": "fa-twitter",
+        "variation": "twitter"
+      },
+      {
+        "text": "Telegram",
+        "url": "https://t.me/kaineer",
+        "iconClass": "fa-telegram",
+        "variation": "dark"
+      },
+      {
+        "text": "Duolingo",
+        "url": "https://duolingo.com/profile/kaineer",
+        "iconClass": "fa-solid fa-dove"
+      },
+      {
+        "text": "Github",
+        "url": "https://github.com/kaineer",
+        "iconClass": "fa-brands fa-github"
+      }
+    ],
+    "icons": []
   }
 }

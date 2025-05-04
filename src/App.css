@@ -24,8 +24,14 @@
 --brand-twitter: #1DA1F2;
 
 --avatar-side: 100px;
+
+--container-max-width: 600px;
 }
 
 * {
   font-family: roboto, sans-serif;
+}
+
+#root, body, html {
+  margin: 0; padding: 0;
 }
